@@ -1,5 +1,5 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var List = require('./components/List');
+var Layout = require('./components/Layout');
 
-ReactDOM.render(<List />, document.getElementById('ingredients'));
+ReactDOM.render(<Layout />, document.getElementById('app'));
